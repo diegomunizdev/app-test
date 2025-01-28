@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import TestePage from './page';
+import TestePage from "./page";
 import '@testing-library/jest-dom';
 
 const setup = () => render(<TestePage title="teste" />);
