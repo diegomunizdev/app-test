@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import TestePage from './page';
 import '@testing-library/jest-dom';
 
-const setup = () => render(<TestePage title="teste" />);
+const setup = () => render(<TestePage />);
 
 describe('Page', () => {
   it('renders a heading', () => {
