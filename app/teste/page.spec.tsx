@@ -13,6 +13,6 @@ describe('Page', () => {
   it('renders a heading', () => {
     const { getByTestId } = setup();
 
-    getByTestId('Testando');
+    getByTestId('testando');
   });
 });
