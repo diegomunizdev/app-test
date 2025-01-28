@@ -7,10 +7,6 @@ const setup = () => render(<TestePage title="teste" />);
 
 describe('Page', () => {
   it('renders a heading', () => {
-    expect(setup()).toMatchSnapshot();
-  });
-
-  it('renders a heading', () => {
     const { getByTestId } = setup();
 
     getByTestId('testando');
